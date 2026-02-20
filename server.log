@@ -1,0 +1,706 @@
+/Users/annarybkina/.matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /var/folders/8k/34vgx02s4fx4xf91g736spn40000gn/T/matplotlib-ry30jx0r because there was an issue with the default path (/Users/annarybkina/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+2026-01-26 18:19:03.581 system_profiler[55077:913631] XType: Using static font registry.
+Matplotlib is building the font cache; this may take a moment.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.220.200:5001
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 513-005-192
+127.0.0.1 - - [26/Jan/2026 18:19:45] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:19:45] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:19:45] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:19:54] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:20:21] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 543-615-132
+127.0.0.1 - - [26/Jan/2026 18:24:59] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:24:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:24:59] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:25:09] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 130-353-091
+127.0.0.1 - - [26/Jan/2026 18:26:23] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:26:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:26:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 123-361-240
+127.0.0.1 - - [26/Jan/2026 18:27:18] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:27:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:27:18] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:27:32] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 650-085-201
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 103-518-809
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 133-748-901
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 661-796-898
+127.0.0.1 - - [26/Jan/2026 18:31:29] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:31:29] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:31:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:31:40] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:31:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:31:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:34:20] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:34:20] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:34:20] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:34:26] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:34:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:34:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:37:27] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:37:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:37:27] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:37:43] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:37:44] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:37:44] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:37:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [26/Jan/2026 18:39:52] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:39:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:39:52] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:41:47] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:41:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:41:47] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:42:05] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:42:05] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:42:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:45:16] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:45:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:45:16] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:45:31] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:50:19] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:50:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 18:50:19] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 18:50:28] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 945-166-657
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 926-547-095
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-297-080
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 664-628-532
+127.0.0.1 - - [26/Jan/2026 19:00:23] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 19:00:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 19:00:23] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 19:00:30] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 19:00:41] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 19:00:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 19:00:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 19:00:59] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 271-122-820
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-356-820
+127.0.0.1 - - [26/Jan/2026 19:10:42] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 19:10:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 19:10:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 19:11:00] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 19:13:44] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 19:13:44] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 19:13:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 19:13:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [26/Jan/2026 19:14:03] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 661-620-700
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 752-868-096
+127.0.0.1 - - [26/Jan/2026 19:17:33] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 19:17:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 19:17:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 19:18:06] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 19:18:06] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 19:18:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 19:18:23] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 727-089-578
+127.0.0.1 - - [26/Jan/2026 19:22:29] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 19:22:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 19:22:29] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 21:00:32] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 21:00:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 21:00:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 21:01:01] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 21:04:13] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 21:04:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 21:04:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 21:04:27] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 492-424-773
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 633-780-101
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 399-805-972
+127.0.0.1 - - [26/Jan/2026 21:10:56] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 21:10:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 21:10:56] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 21:11:13] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 109-293-899
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 359-410-974
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 120-517-118
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 699-700-047
+127.0.0.1 - - [26/Jan/2026 21:15:38] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 21:15:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 21:15:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 21:15:52] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 22:20:29] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 22:20:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 22:20:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 22:20:45] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 22:23:44] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 22:23:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 22:23:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 22:23:57] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 330-232-438
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-001-017
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 115-361-082
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 630-434-393
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 911-085-788
+127.0.0.1 - - [26/Jan/2026 23:14:24] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:14:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 23:14:24] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:14:38] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:19:18] "POST /akvilon/api/compare_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 808-818-545
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 754-976-428
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 127-619-621
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 864-135-023
+127.0.0.1 - - [26/Jan/2026 23:21:59] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:21:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 23:21:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 23:22:14] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:28:49] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:28:49] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:28:49] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:29:05] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:35:05] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:35:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 23:35:05] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:35:18] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:37:50] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:37:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 23:37:50] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:38:05] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:40:04] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:40:04] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:40:04] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:40:13] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:40:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 23:40:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 23:40:28] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:46:27] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:46:27] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:46:28] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:46:40] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:49:03] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:49:03] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:49:03] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:49:18] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:50:04] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:50:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 23:50:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Jan/2026 23:50:18] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:53:39] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:53:39] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:53:39] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:53:55] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:57:15] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:57:15] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:57:15] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2026 23:57:28] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:03:54] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:03:54] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:03:54] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:05:13] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:05:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:05:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:05:50] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:05:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:05:50] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:06:06] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/boxplot_demo.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 138-746-034
+127.0.0.1 - - [27/Jan/2026 00:11:25] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:11:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:11:25] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:13:07] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:13:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:13:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:14:02] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:14:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:14:02] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:14:05] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:14:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:14:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:14:57] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:14:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:14:57] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:15:11] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:17:47] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:17:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:17:47] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:17:59] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:18:15] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:18:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:18:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:18:27] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 663-087-261
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 878-790-907
+127.0.0.1 - - [27/Jan/2026 00:24:52] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:24:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:24:52] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:25:04] "[35m[1mPOST /akvilon/api/create_groups HTTP/1.1[0m" 500 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 127-414-269
+127.0.0.1 - - [27/Jan/2026 00:26:16] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:26:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:26:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:26:28] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 622-405-608
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-771-530
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 720-571-164
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-378-365
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 902-480-982
+127.0.0.1 - - [27/Jan/2026 00:30:37] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:30:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:30:37] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:30:51] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 761-271-771
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 108-169-549
+127.0.0.1 - - [27/Jan/2026 00:33:28] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:33:28] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 00:33:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 00:33:40] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 12:21:07] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 12:21:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 12:21:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 12:21:25] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 413-557-393
+127.0.0.1 - - [27/Jan/2026 12:56:59] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 12:56:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 12:56:59] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 12:57:11] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 123-003-068
+127.0.0.1 - - [27/Jan/2026 13:02:27] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:02:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:02:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:02:37] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 909-182-437
+127.0.0.1 - - [27/Jan/2026 13:08:17] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:08:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:08:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:08:28] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 661-773-655
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 548-248-228
+127.0.0.1 - - [27/Jan/2026 13:14:44] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:14:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:14:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:14:53] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 988-791-037
+127.0.0.1 - - [27/Jan/2026 13:18:39] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:18:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:18:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:18:48] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 703-284-301
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 412-931-510
+127.0.0.1 - - [27/Jan/2026 13:23:01] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:23:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:23:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:23:10] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 917-873-307
+127.0.0.1 - - [27/Jan/2026 13:26:34] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:26:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:26:34] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:26:44] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 138-316-198
+127.0.0.1 - - [27/Jan/2026 13:27:51] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:27:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:27:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:28:02] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 704-918-826
+127.0.0.1 - - [27/Jan/2026 13:29:37] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:29:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:29:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:29:48] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:33:20] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:33:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:33:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 181-573-345
+127.0.0.1 - - [27/Jan/2026 13:37:39] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:37:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:37:39] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:37:48] "[35m[1mPOST /akvilon/api/create_groups HTTP/1.1[0m" 500 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 156-783-890
+127.0.0.1 - - [27/Jan/2026 13:39:14] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:39:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:39:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:39:24] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 135-662-498
+127.0.0.1 - - [27/Jan/2026 13:42:01] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:42:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:42:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:42:11] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 934-964-270
+127.0.0.1 - - [27/Jan/2026 13:44:42] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:44:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:44:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:44:52] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 284-154-047
+127.0.0.1 - - [27/Jan/2026 13:48:01] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:48:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:48:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:48:12] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 972-228-206
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 272-643-903
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 492-164-333
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 916-289-933
+127.0.0.1 - - [27/Jan/2026 13:59:37] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:59:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 13:59:37] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 13:59:46] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 820-894-786
+127.0.0.1 - - [27/Jan/2026 14:06:54] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 14:06:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 14:06:54] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 14:07:02] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 14:26:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 14:26:59] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 14:26:59] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 14:42:45] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 14:42:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 14:42:45] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 14:42:55] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:23:52] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:23:52] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:23:52] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:24:02] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 602-891-042
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 186-567-800
+127.0.0.1 - - [27/Jan/2026 15:27:21] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:27:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 15:27:21] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:27:31] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:31:03] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:31:03] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:31:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 15:31:13] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:33:28] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:33:28] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:33:28] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:33:37] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+ * Detected change in '/Users/annarybkina/Desktop/Allio/ИИ Цены/app.py', reloading
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 25 - пустое поле 'Название объекта', пропускаем
+Предупреждение: строка 26 - пустое поле 'Название объекта', пропускаем
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 690-879-276
+127.0.0.1 - - [27/Jan/2026 15:35:51] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2026 15:35:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 15:35:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [27/Jan/2026 15:36:01] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jan/2026 11:51:35] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jan/2026 11:51:35] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jan/2026 11:51:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Jan/2026 11:52:06] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 10:56:03] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 10:56:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [02/Feb/2026 10:56:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [02/Feb/2026 10:56:22] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 17:40:32] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 17:40:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [02/Feb/2026 17:40:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [02/Feb/2026 17:40:48] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 11:02:21] "GET /akvilon/ HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 11:02:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [06/Feb/2026 11:02:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [06/Feb/2026 11:02:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [06/Feb/2026 11:02:33] "POST /akvilon/api/create_groups HTTP/1.1" 200 -
