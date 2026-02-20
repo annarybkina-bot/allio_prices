@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цены конкурентов. Сравнение и анализ</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        /* Минимальные стили для проверки */
+        body { 
+            margin: 0; 
+            padding: 20px; 
+            background: #f0f0f0; 
+            font-family: Arial, sans-serif;
+        }
+        .container { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 10px; 
+            max-width: 1200px; 
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Цены конкурентов. Сравнение и анализ</h1>
+        
+        <!-- Форма загрузки файлов -->
+        <div class="section">
+            <h2>1. Загрузка файлов</h2>
+            
+            <div class="upload-blocks-container">
+                <!-- Блок для основного ЖК -->
+                <div class="upload-block">
+                    <label for="main_files" class="upload-block-label">Основной ЖК</label>
+                    <div class="upload-area" id="main_upload_area">
+                        <input type="file" id="main_files" accept=".csv" multiple>
+                        <div class="upload-placeholder">
+                            <span class="upload-icon">📁</span>
+                            <p>Перетащите файлы сюда<br>или нажмите для выбора</p>
+                        </div>
+                    </div>
+                    <div class="files-preview" id="main_files_preview"></div>
+                </div>
+                
+                <!-- Блок для конкурентов -->
+                <div class="upload-block">
+                    <label for="competitor_files" class="upload-block-label">Конкуренты</label>
+                    <div class="upload-area" id="competitor_upload_area">
+                        <input type="file" id="competitor_files" accept=".csv" multiple>
+                        <div class="upload-placeholder">
+                            <span class="upload-icon">📁</span>
+                            <p>Перетащите файлы сюда<br>или нажмите для выбора</p>
+                        </div>
+                    </div>
+                    <div class="files-preview" id="competitor_files_preview"></div>
+                </div>
+            </div>
+            
+            <button id="createGroupsBtn" class="btn btn-primary">Анализ</button>
+        </div>
+        
+        <!-- Список групп -->
+        <div class="section" id="groupsSection" style="display: none;">
+            <h2>2. Результат анализа</h2>
+            <div class="grouping-toggle-container" style="margin-bottom: 20px;">
+                <label class="grouping-toggle-label">Группировка:</label>
+                <div class="grouping-toggle">
+                    <input type="radio" id="groupByCharacteristics" name="grouping" value="characteristics" checked>
+                    <label for="groupByCharacteristics">Сводная</label>
+                    <input type="radio" id="groupByType" name="grouping" value="type">
+                    <label for="groupByType">По типам помещений</label>
+                    <input type="radio" id="groupByVisualization" name="grouping" value="visualization">
+                    <label for="groupByVisualization">Визуализация</label>
+                    <input type="radio" id="groupByObject" name="grouping" value="object">
+                    <label for="groupByObject">По ЖК</label>
+                </div>
+            </div>
+            <div id="groupsList"></div>
+        </div>
+        
+        <!-- Результаты сравнения -->
+        <div class="section" id="comparisonSection" style="display: none;">
+            <h2>3. Результаты сравнения</h2>
+            <div id="comparisonsList"></div>
+        </div>
+        
+        <!-- Индикатор загрузки -->
+        <div id="loading" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Обработка данных...</p>
+        </div>
+        
+        <!-- Сообщения об ошибках -->
+        <div id="errorMessage" class="error-message" style="display: none;"></div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script>
+        // Проверка загрузки
+        console.log('Страница загружена');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM загружен');
+            const container = document.querySelector('.container');
+            if (container) {
+                console.log('Контейнер найден');
+                container.style.display = 'block';
+                container.style.visibility = 'visible';
+            } else {
+                console.error('Контейнер не найден!');
+            }
+        });
+        
+        // Проверка загрузки скрипта
+        window.addEventListener('load', function() {
+            console.log('Все ресурсы загружены');
+            if (typeof groupsData === 'undefined') {
+                console.error('JavaScript не загружен!');
+            } else {
+                console.log('JavaScript загружен успешно');
+            }
+        });
+    </script>
+</body>
+</html>
+
