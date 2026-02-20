@@ -530,6 +530,12 @@ def plot_to_base64(fig):
     plt.close(fig)
     return img_base64
 
+@app.route('/health')
+def health():
+    """Проверка работы сервера (для Render и отладки)."""
+    return jsonify({"status": "ok"}), 200
+
+
 @app.route('/')
 def index():
     return render_template('index.html')
