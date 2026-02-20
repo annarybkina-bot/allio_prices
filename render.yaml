@@ -1,0 +1,16 @@
+# Render Blueprint — деплой из GitHub одной кнопкой
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: allio-prices
+    runtime: python
+    plan: free
+
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn --bind 0.0.0.0:$PORT app:app
+
+    # Переменные окружения (позже можно добавить OPENAI_API_KEY для LLM)
+    # envVars:
+    #   - key: OPENAI_API_KEY
+    #     sync: false
