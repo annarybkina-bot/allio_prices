@@ -10,7 +10,13 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn --bind 0.0.0.0:$PORT app:app
 
-    # Переменные окружения (позже можно добавить OPENAI_API_KEY для LLM)
+    envVars:
+      - key: MPLCONFIGDIR
+        value: /tmp/matplotlib
+      - key: PYTHONUNBUFFERED
+        value: 1
+
+    # Позже можно добавить OPENAI_API_KEY для LLM
     # envVars:
     #   - key: OPENAI_API_KEY
     #     sync: false

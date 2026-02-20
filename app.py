@@ -7,15 +7,20 @@ Flask приложение для анализа и группировки кв�
 from flask import Flask, render_template, request, jsonify, url_for, Blueprint
 import csv
 import re
+import os
 import statistics
 from pathlib import Path
 from collections import defaultdict
 import base64
 import io
 
+# Для Render: matplotlib должен писать кэш во временную папку
+if 'MPLCONFIGDIR' not in os.environ:
+    os.environ['MPLCONFIGDIR'] = '/tmp/matplotlib'
+
 try:
     import matplotlib
-    matplotlib.use('Agg')  # Используем backend без GUI
+    matplotlib.use('Agg')  # Backend без GUI (для сервера)
     import matplotlib.pyplot as plt
     import numpy as np
     import matplotlib.patches as mpatches
@@ -33,6 +38,8 @@ except ImportError:
     PLOTLY_AVAILABLE = False
 
 app = Flask(__name__, static_folder='static', static_url_path='/static')
+# Секрет для сессий (на Render задайте SECRET_KEY в Environment)
+app.config['SECRET_KEY'] = __import__('os').environ.get('SECRET_KEY', 'dev-secret-change-in-production')
 
 # Создаем Blueprint для Аквилона
 akvilon_bp = Blueprint('akvilon', __name__, url_prefix='/akvilon')
